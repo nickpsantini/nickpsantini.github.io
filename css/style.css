@@ -1,7 +1,7 @@
 /* Style.css */
 body {
   background: url("http://papers.co/wallpaper/papers.co-vz49-polygon-blue-texture-abstract-pattern-background-8-wallpaper.jpg");
-  background-size: contain;
+  background-size: cover;
 	font-family: "Roboto", sans-serif;
   }
   h1, h2, h3 {
