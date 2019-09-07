@@ -3,7 +3,8 @@
 	<head>
 		<title>Home</title>
 		<link href="css/style.css" rel="stylesheet">
-    	<link href="https://fonts.googleapis.com/css?family=Roboto|VT323&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto|VT323&display=swap" rel="stylesheet">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	</head>
 	<body>
     <!-- START HEADER -->
@@ -15,6 +16,7 @@
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
+        <p id="time"></p>
       <hr>
       </nav>
     </header>
@@ -29,5 +31,14 @@
           <hr>
           <p>&copy; 2019 | Designed by Nick Santini</p>
         </footer>
+        <script>
+          $(document).ready(function(){
+            var d = new Date();
+            var month = d.getMonth();
+            var day = d.getDate();
+            var year = d.getFullYear();
+          $("#time").html(month + "/" + day + "/" + year);
+          });
+        </script>
 	</body>
 </html>

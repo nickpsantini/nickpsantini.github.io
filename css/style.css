@@ -1,6 +1,7 @@
 /* Style.css */
 body {
-	background: #222222;
+  background: url("http://papers.co/wallpaper/papers.co-vz49-polygon-blue-texture-abstract-pattern-background-8-wallpaper.jpg");
+  background-size: contain;
 	font-family: "Roboto", sans-serif;
   }
   h1, h2, h3 {
@@ -15,9 +16,17 @@ body {
   footer {
 	width: 60%;
 	display: block;
-	margin: 0 auto;
+	margin: 20px auto;
 	padding: 10px;
-	background: #ffffff;
+  background: #ffffff;
+  border-radius: 10px;
+  }
+
+  #time {
+    font-size:12px;
+    float:right;
+    display:inline;
+    margin-top:-40px;
   }
   #navigation {
 	font-family: "VT323", monospace;
