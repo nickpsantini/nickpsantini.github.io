@@ -112,7 +112,7 @@ body{
 
 		  twitch_widget.attr("href", "https://www.twitch.tv/" + user_name);
 
-		  $.getJSON('https://api.twitch.tv/kraken/streams/' + user_name, function(data) {
+		  $.getJSON('https://api.twitch.tv/kraken/users/' + user_name + '?client_id=wm58ik9mdaj3sb3d45mnv3oei0mcj6', function(data) {
 		    if (data.stream) {
 		      twitch_widget.html("<span class='online'></span><b> " + user_name + " </b> is Online!<br><span class='game'>Playing: " + data.stream.game + "</span><span class='viewers'>Viewers: " + data.stream.viewers + "</span>");
 		    } else {
