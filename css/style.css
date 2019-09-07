@@ -1,0 +1,65 @@
+/* Style.css */
+body {
+	background: #222222;
+	font-family: "Roboto", sans-serif;
+  }
+  h1, h2, h3 {
+	font-family: "VT323", monospace;
+  }
+  p {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+  }
+  .container,
+  nav,
+  footer {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	background: #ffffff;
+  }
+  #navigation {
+	font-family: "VT323", monospace;
+  }
+  #navigation a {
+	font-size: 24px;
+  }
+  
+  #logo {
+	font-size: 24px;
+  }
+  
+  ul {
+	padding-left: 0px;
+  }
+  
+  li {
+	display: inline;
+	margin-right: 5px;
+  }
+  
+  .avatar {
+	max-width: 200px;
+	float: left;
+	border: 2px solid #222;
+	margin-right: 5px;
+  }
+  
+  footer {
+	text-align: center;
+  }
+  .project-img {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+  }
+  .project-details {
+	float: right;
+	display: inline;
+	font-size: 16px;
+	padding-bottom: 10px;
+  }
+  .clear {
+	clear: both;
+  }
